@@ -19,7 +19,7 @@ def calculate_price(preparation_minutes, tattooing_minutes, in_shop_minutes, fri
     
     return total_cost
 
-st.title('Tattoo Price Calculator')
+st.title('Tattoo Price Calculator💰')
 
 prep_time = st.number_input('Preparation time (minutes)', min_value=0, value=30)
 tattoo_time = st.number_input('Tattooing time (minutes)', min_value=0, value=60)
