@@ -2,7 +2,7 @@ import streamlit as st
 
 def calculate_price(preparation_minutes, tattooing_minutes, in_shop_minutes, friend_discount, loyal_customer_discount):
     preparation_rate = 62.5 / 60  # $50 per hour
-    tattooing_rate = 150 / 60  # $100 per hour
+    tattooing_rate = 160 / 60  # $100 per hour
     in_shop_rate = 32.5 / 60  # $30 per hour for time spent in shop without tattooing
     
     # Calculate costs for each type of time spent
